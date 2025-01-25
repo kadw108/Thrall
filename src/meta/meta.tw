@@ -1,0 +1,19 @@
+:: StoryTitle
+Thrall
+
+:: StoryData
+{
+  "ifid": "1462994A-129F-49C0-A77F-29FB4EA27210",
+  "format": "Snowman",
+  "format-version": "2.0.2",
+  "tag-colors": {
+    "heaven": "red",
+    "chasedream": "orange",
+    "bedroom": "green",
+    "disco": "yellow",
+    "mall": "blue",
+    "death": "purple",
+    "surgery": "red"
+  },
+  "zoom": 0.6
+}

@@ -1,0 +1,16 @@
+:: Start [loading]
+<div id="container" style="text-align: center">
+    <h3>...LOADING...</h3>
+    <p id="proceed">[[CONTINUE|start1]]</p>
+</div>
+
+<%
+$(function () {
+    mainScript.globalScript();
+
+    mainScript.preload(
+        ['assets/9bedroom.gif', 'assets/9car.gif', 'assets/9church.gif', 'assets/9city.gif', 'assets/9dangersB.gif', 'assets/9disco.gif', 'assets/9question.gif', 'assets/9smoke.gif', 'assets/9stall.gif', 'assets/alternate.gif', 'assets/border1.png', 'assets/border2.png', 'assets/border3.png', 'assets/bordera.png', 'assets/continue.gif', 'assets/continue2.gif', 'assets/mall.gif', 'assets/postdead.gif', 'assets/smoke.gif', 'assets/surgery.gif'],
+        () => {}
+    );
+});
+%>

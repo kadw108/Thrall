@@ -1,0 +1,135 @@
+/* --- LOADING --- */
+tw-story.loading #screenContents {
+  height: 70%;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+tw-story.loading #passagesFake {
+  background-size: 108%;
+  background-position: bottom;
+}
+
+/* --- MENU --- */
+tw-story.menu #passagesFake {
+  background:
+      /* https://stackoverflow.com/a/23208450 */
+    linear-gradient(rgba(80, 10, 0, 0.3), rgba(190, 120, 30, 0.35)),
+    /* bottom, image */ url("assets/smoke.gif");
+
+  background-size: cover;
+}
+
+tw-story.menu #screenContents {
+  height: 80%;
+  width: 80%;
+}
+
+/* --- MALL --- */
+tw-story.mall #passagesFake {
+  background-image: url("assets/mall.gif");
+  background-size: 110%;
+}
+
+tw-story.mall #screenContents {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+tw-story.mall a[data-passage],
+tw-story.surgery a[data-passage] {
+  color: #6666cc;
+}
+
+tw-story.mall a:hover,
+tw-story.surgery a:hover {
+  color: #6666ff;
+}
+
+/* --- LOWLY, DANGERS --- */
+tw-story.dangers #passagesFake,
+tw-story.lowly #passagesFake {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("assets/9dangersB.gif");
+}
+
+/* --- DISCO --- */
+tw-story.disco #passagesFake {
+  background-image: url("assets/9disco.gif");
+}
+tw-story.disco #screenContents {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+tw-story.disco1 #screenContents {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* --- BEDROOM --- */
+tw-story.bedroom #passagesFake {
+  background-image: url("assets/9bedroom.gif");
+}
+
+/* --- QUESTION --- */
+tw-story.question #passagesFake {
+  background-image: url("assets/9city.gif");
+}
+tw-story.question #screenContents {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* --- ALTERNATE --- */
+tw-story.alternate #passagesFake {
+  background-image: url("assets/alternate.gif");
+}
+
+/* --- CHARM --- */
+tw-story.charm #passagesFake {
+  background-image: none;
+}
+
+/* --- HEAVEN --- */
+tw-story.heaven #passagesFake {
+  background-image: url("assets/9smoke.gif");
+}
+tw-story.heaven #screenContents {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+/* --- DEATH --- */
+tw-story.death #passagesFake {
+  background-image: url("assets/9question.gif");
+}
+tw-story.death #screenContents {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* --- POSTDEATH (CHASEDREAM) --- */
+tw-story.chasedream #passagesFake {
+  background-image: url("assets/postdead.gif");
+}
+
+tw-story.church #passagesFake {
+  background-image: url("assets/9church.gif");
+}
+tw-story.stall #passagesFake {
+  background-image: url("assets/9stall.gif");
+}
+tw-story.car #passagesFake {
+  background-image: url("assets/9car.gif");
+}
+
+/* --- SURGERY --- */
+tw-story.surgery #passagesFake {
+  background-image: url("assets/surgery.gif");
+}
+tw-story.surgery #screenContents {
+  background-color: rgba(0, 0, 0, 0.93);
+}
+
+/* --- CONTINUE --- */
+tw-story.continue #passagesFake {
+  background-image: url("assets/continue.gif");
+}
+
+tw-story.continue2 #passagesFake {
+  background-image: url("assets/continue2.gif");
+}

@@ -1,0 +1,89 @@
+@keyframes glow {
+    0% {
+        filter: brightness(2);
+    }
+    100% {
+        filter: brightness(1);
+    }
+}
+
+@keyframes transparent {
+    0% {
+        opacity: 50%;
+    }
+    50% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 50%;
+    }
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 50%;
+    }
+    40% {
+        opacity: 100%;
+    }
+    49% {
+        opacity: 100%;
+    }
+    55% {
+        opacity: 0%;
+    }
+}
+
+@keyframes blur {
+    0% {
+        filter: blur(0);
+    }
+    100% {
+        filter: blur(4px);
+    }
+}
+
+@keyframes rotatehue {
+    0% {
+        filter: hue-rotate(0);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes rotatehuelight {
+    0% {
+        filter: hue-rotate(-40deg);
+    }
+    100% {
+        filter: hue-rotate(40deg);
+    }
+}
+
+@keyframes rotatehueverylight {
+    0% {
+        filter: hue-rotate(-10deg);
+    }
+    100% {
+        filter: hue-rotate(10deg);
+    }
+}
+
+@keyframes scrollBgX {
+    from {
+        background-position-x: 0%;
+    }
+    to { 
+        background-position-x: 100%;
+    }
+}
+
+@keyframes scrollBgY {
+    from {
+        background-position-y: 0%;
+    }
+    to { 
+        background-position-y: 100%;
+    }
+}

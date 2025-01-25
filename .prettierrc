@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "files": ["*.tw"],
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.vscode/
+node_modules/
+export/*
+src/meta/typeScriptMain.js
+notes.md
+utility_files/*.txt
+linux-amd64-butler/
+conversion/

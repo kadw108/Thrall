@@ -1,0 +1,58 @@
+:: credits [menu menuMusic]
+<p>[[Return to Main Menu|start1]]</p>
+
+Lyrics from the some of the songs I was assigned for Shufflecomp were used in the text. See the [[About|about]] section for more.
+
+No generative AI technologies were used.
+
+<details>
+    <summary>Image Credits</summary>
+    <p>Candles originally from <a class="outsideLink" href="https://codepen.io/Akash_Ramani/pen/PoKEqBm">Akash Ramani</a> on Codepen under the MIT License, modified by me.</p>
+
+    <p>Other gifs were originally public domain videos and photos found on Youtube, Wikimedia Commons, Pexels and Unsplash, which were then edited with <a class="outsideLink" href="https://github.com/kadw108/image-converter">my image converter program</a>. All visual assets in this game are public domain. Assets used include but are not limited to:</p>
+
+    <ul>
+        <li>Frame from <a class="outsideLink" href="https://www.youtube.com/watch?v=UmB60kIFRbI&list=PLC-jgCpswnLN5iTz1skm_5I7LT3elf-Eb&index=71&t=153s">A Ride Down Broadway in 1929</a>, a 1929 film (Youtube)</li>
+        <li><a class="outsideLink" href="https://dolanmaxwell.com/content/feature/104/artworks-10437-gan-kolski-the-l-1929/">The "L" by Gan Kolski</a>, a 1929 lithograph</li>
+        <li><a class="outsideLink" href="https://americanart.si.edu/artwork/allen-street-14957">Allen Street by Louis Lozowick</a>, a 1929 lithograph</li>
+        <li><a class="outsideLink" href="https://www.nga.gov/collection/art-object-page.146030.html#inscription">Untitled (New York scene) by Roger Buck</a>, a 1929 woodcut</li>
+        <li><a class="outsideLink" href="https://www.youtube.com/watch?v=CVMDg_vv-3o">"smoke, ascending, haze" - Free Public Domain Video (Youtube)</a></li>
+        <li><a class="outsideLink" href="https://www.youtube.com/watch?v=fsDCz_JTpXA">Vintage Nightclub and Dancers, stock film footage public domain (Youtube)</a></li>
+        <li><a class="outsideLink" href="https://commons.wikimedia.org/wiki/File:Victoria_Harbour_skyscrapers.jpg">Victoria Harbour skyscrapers.jpg (Wikimedia Commons)</a></li>
+        <li><a class="outsideLink" href="https://commons.wikimedia.org/wiki/File:TAHIR_SHAH_COLLAGE_3.jpg">TAHIR SHAH COLLAGE 3.jpg (Wikimedia Commons)</a></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Sound Credits</summary>
+        <p>Non-public domain sounds used:</p>
+
+        <ul>
+            <li>The Dangers: <a class="outsideLink" href="https://soundcloud.com/ond-ej-bad-n/neon">Neon - Occlusive Occurences</a> - <a class="outsideLink" href="http://creativecommons.org/licenses/by/3.0/">CC license</a></li>
+            <li>Disco: <a class="outsideLink" href="https://www.youtube.com/watch?v=zzQ5Yv5M6B0">Agnes - Fingers Crossed (instrumental)</a> - no license</li>
+        </ul>
+
+        <p>Everything else, including the sounds listed below, is public domain. Sounds are mainly from freesound.org and by <a class="outsideLink" href="https://loyaltyfreakmusic.com/">Rrrrrose (Loyalty Freak Music)</a>.</p>
+
+        <ul>
+            <li>Main menu: <a class="outsideLink" href="https://www.youtube.com/watch?v=Ta3Etc8IIxE">Excerpt from the soundtrack of Brothers</a>, a 1929 German silent film that is public domain in both the US and Germany.</li>
+            <li>Alternate: <a class="outsideLink" href="https://chezmonplaisir.bandcamp.com/track/you-have-entered">You have entered Ｈｙｐｅｒｒｅａｌｉｔｙ - Rrrrose</a></li>
+            <li>Bedroom: <a class="outsideLink" href="https://chezmonplaisir.bandcamp.com/track/shivering">Shivering - Rrrrose</a></li>
+            <li>Death: <a class="outsideLink" href="https://chezmonplaisir.bandcamp.com/track/i-am-the-spider-on-the-ceiling">i am the spider on the ceiling - Rrrrose</a></li>
+            <li>Heaven: <a class="outsideLink" href="https://chezmonplaisir.bandcamp.com/track/--42">【ⓗⓞⓜⓞ ⓢⓟⓔⓒⓣⓐⓒⓤⓛⓤⓜ】 - Rrrrose</a></li>
+            <li>Mall: <a class="outsideLink" href="https://chezmonplaisir.bandcamp.com/track/4-in-the-afternoon">4 in the Afternoon - Rrrrose</a></li>
+            <li>Postdeath: <a class="outsideLink" href="https://chezmonplaisir.bandcamp.com/track/see-me-seeming">see me seeming - Rrrrose</a></li>
+            <li>Surgery: <a class="outsideLink" href="https://chezmonplaisir.bandcamp.com/track/exploding-head-revelation">Exploding Head Revelation - Rrrrose</a></li>
+        </ul>
+    </ul>
+</details>
+
+<br />
+<p>[[Return to Main Menu|start1]]</p>
+
+<%
+$(function () {
+    mainScript.globalScript();
+
+});
+%>

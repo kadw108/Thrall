@@ -1,0 +1,41 @@
+.closeButton {
+  /*
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+  */
+
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+
+  border-width: 1px;
+  border-radius: 4px;
+
+  font-size: initial;
+}
+
+.panelFull {
+  z-index: 20;
+  padding-bottom: 15px;
+  background-color: #000;
+  border: 4px double #fffc;
+  border-radius: 5px;
+
+  font-size: 90%;
+
+  overflow: hidden;
+  padding: 10px;
+
+  margin: 10px;
+}
+
+.panelSmall {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+
+  text-align: center;
+}

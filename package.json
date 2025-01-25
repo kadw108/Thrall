@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "dom-chef": "^5.1.1",
+    "howler": "^2.2.4",
+    "iffinity": "^0.4.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "esbuild": "0.21.5"
+  }
+}

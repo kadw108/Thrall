@@ -1,0 +1,33 @@
+/* From https://stackoverflow.com/a/67968068 */
+
+.marquee-wrapper {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 40s linear infinite;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px 0 5px 0;
+    text-transform: capitalize;
+}
+
+.marquee p {
+    display: inline-block;
+    margin: 0.1em 0.5em 0 0;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}

@@ -1,0 +1,43 @@
+tw-story #screenContents {
+    border: 7px solid white;
+    border-image: url("assets/bordera.png");
+    border-image-slice: 9;
+    border-image-repeat: repeat;
+
+    animation: borderMove 7s infinite ease-in-out;
+}
+
+tw-story tw-passage {
+    font-size: 0.95em;
+}
+
+tw-story #passagesFake {
+    min-width: 800px;
+    min-height: 500px;
+    max-width: 1200px;
+    max-height: 800px;
+    font-size: 1.2em;
+}
+
+@keyframes borderMove {
+    0% {
+        border-image-width: 0.95;
+    }
+    100% {
+        border-image-width: 1;
+    }
+}
+
+.mousemarquee {
+    font-weight: bold;
+}
+.mousemarquee:hover {
+    cursor: crosshair;
+}
+
+.sep {
+    font-size: 80px;
+    text-align: center;
+    height: 50%;
+    margin-top: 20%;
+}

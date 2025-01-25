@@ -1,0 +1,328 @@
+/*
+GENERAL STYLE
+*/
+
+/* Can define CSS variables here */
+:root {
+    --color1: #fabb33;
+    --colorb: #fcdd55;
+    --color2: #fff;
+    --shadow: #ddd;
+
+    --scrollbar-foreground: #666;
+    --scrollbar-background: #222;
+
+    --screenheight: 675px;
+    --screenwidth: 765px;
+    --screenheightbig: 700px;
+    --screenwidthbig: 800px;
+}
+
+body {
+    /* Foreground, Background */
+    scrollbar-color: var(--scrollbar-foreground) var(--scrollbar-background);
+    overflow: hidden;
+
+    image-rendering: pixelated;
+}
+.styled-scrollbars::-webkit-scrollbar {
+    width: 10px; /* Mostly for vertical scrollbars */
+    height: 10px; /* Mostly for horizontal scrollbars */
+}
+.styled-scrollbars::-webkit-scrollbar-thumb {
+    /* Foreground */
+    background: var(--scrollbar-background);
+}
+.styled-scrollbars::-webkit-scrollbar-track {
+    /* Background */
+    background: var(--scrollbar-foreground);
+}
+
+/* Background */
+#bg {
+    height: 100%;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+
+    background-color: #000000;
+}
+
+/* Passage container */
+#passagesFake {
+    margin: auto;
+    margin-top: 10px; /* for itch.io embed being weird with margins */
+
+    width: 100vw;
+    height: 66vw;
+    min-width: 600px;
+    min-height: 400px;
+    max-width: 900px;
+    max-height: 600px;
+
+    /* Prevent images from extending past div bounds
+  object-fit: cover;
+  overflow: hidden;
+  */
+
+    background-image: url("./assets/default.gif");
+    background-size: cover;
+    background-color: #000000;
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 5);
+
+    font-size: 100%;
+    font-family: "NormalFont", monospace;
+
+    position: relative;
+    overflow: auto;
+}
+
+/* #screenBg {
+    width: 100%;
+    height: 100%;
+
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+
+    border: 1px dotted #666666;
+
+    position: relative;
+    z-index: 0;
+} */
+
+#screenContents {
+    width: 85%;
+    height: 70%;
+    margin: auto;
+    overflow: scroll;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 25px;
+}
+
+/*
+div.topHalf {
+    width: 100%;
+    height: 50%;
+    bottom: 50%;
+    margin: auto;
+}
+div.topHalf img {
+    width: 100%;
+    height: 100%;
+}
+div.bottomHalf,
+div.bothHalves {
+    width: 100%;
+    height: 100%;
+    bottom: 0%;
+    top: auto;
+
+    margin: auto;
+
+    padding: 5px;
+    padding-bottom: 0px;
+    overflow: auto;
+}
+div.bottomHalf {
+    height: 150px;
+    bottom: 0%;
+    top: auto;
+
+    background-color: rgba(0, 0, 0, 0.85);
+}
+*/
+
+/*
+CUSTOM STYLES
+*/
+
+.menuPanel {
+    overflow: auto;
+    padding: 3px 7px 3px 7px;
+    margin: 5px;
+
+    background-color: #001020;
+    border: 1px dotted #ccc;
+    border-radius: 10px;
+}
+
+.hoverDiv {
+    position: absolute;
+    z-index: 3;
+    line-height: 100%;
+    padding: 4px;
+
+    display: none;
+}
+
+.outlineDiv {
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 -1px 2px #fff;
+
+    color: #fff;
+    border: solid 1px #aaa;
+    background: #000;
+}
+
+.blackBg {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.absoluteAlign {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+    background-size: cover;
+}
+
+.gray {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.gray:hover {
+    color: #aaaaaa;
+}
+
+.red-text {
+    color: #ff0000;
+    text-decoration: underline;
+}
+.green-text {
+    color: #00ff00;
+    text-decoration: underline;
+}
+
+.smalltext {
+    color: #777777;
+    font-size: 0.8em;
+}
+
+.noClick {
+    pointer-events: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.transitionMessage {
+    font-style: italic;
+    font-size: 80%;
+}
+
+.center {
+    text-align: center;
+}
+
+#screenCover {
+    background-color: rgba(0, 0, 0, 0.3);
+
+    z-index: 7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+/*
+OVERRIDING DEFAULT CSS STYLES
+*/
+
+body {
+    color: #ffffff;
+    word-wrap: break-word;
+}
+
+small {
+    font-size: 70%;
+}
+
+/* For replacelink */
+.initial {
+    color: #eeeeee;
+}
+.initial:hover {
+    color: #666666;
+}
+
+a:not([data-passage]) {
+    font-weight: bold;
+    color: inherit;
+    text-decoration: inherit;
+    cursor: pointer;
+}
+a[data-passage] {
+    color: #cc0000;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-transform: uppercase;
+    font-family: "Display1";
+    font-size: 125%;
+}
+a:hover {
+    text-decoration: inherit;
+    color: #ff0000;
+}
+.hiddenLink a {
+    font-weight: inherit;
+    text-decoration: inherit;
+    color: inherit;
+}
+a.outsideLink {
+    color: #8ab0cf;
+}
+a.outsideLink:hover {
+    text-decoration: underline;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+hr {
+    height: 0px;
+    margin: 3px 0;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+
+    font-family: "MonoFont", monospace;
+}
+button:hover {
+    background-color: #444;
+}
+.linkReplaced,
+.linkHider {
+    cursor: pointer;
+    width: fit-content;
+}
+
+/* Fonts */
+
+h1,
+h2,
+h3 {
+    font-family: "Display1", "NormalFont", monospace;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
