@@ -1,5 +1,3 @@
-This is a template for games made with Tweego and the Snowman format, based off my iffinity template.
-
 Needed but not included in the repository due to being build outputs:
 
 * export/index.html
