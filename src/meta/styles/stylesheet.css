@@ -99,10 +99,12 @@ body {
     width: 85%;
     height: 70%;
     margin: auto;
-    overflow: scroll;
+    overflow-y: scroll;
 
     background-color: rgba(0, 0, 0, 0.8);
     padding: 25px;
+
+    scrollbar-width: thin;
 }
 
 /*

@@ -10,6 +10,10 @@ tw-story.loading #passagesFake {
   background-position: bottom;
 }
 
+tw-story.loading #settingsButton {
+  display: none;
+}
+
 /* --- MENU --- */
 tw-story.menu #passagesFake {
   background:
