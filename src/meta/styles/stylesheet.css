@@ -78,7 +78,7 @@ body {
     font-family: "NormalFont", monospace;
 
     position: relative;
-    overflow: auto;
+    overflow: hidden;
 }
 
 /* #screenBg {
@@ -228,16 +228,6 @@ CUSTOM STYLES
 
 .center {
     text-align: center;
-}
-
-#screenCover {
-    background-color: rgba(0, 0, 0, 0.3);
-
-    z-index: 7;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: none;
 }
 
 /*

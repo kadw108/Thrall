@@ -1,0 +1,24 @@
+#settingsButton {
+  width: 25px;
+  height: 25px;
+
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  background-color: black;
+  background-image: url("assets/settings.png");
+  background-size: cover;
+
+  border: none;
+  border-radius: 3px;
+}
+#settingsButton:hover {
+  background-color: #eee;
+  background-image: url("assets/settings2.png");
+}
+
+div[identifier="settings"] input[type="range"] {
+  width: 260px;
+  margin: 0;
+}

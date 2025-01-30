@@ -5,7 +5,7 @@ import { addTagsToStory, getPassageTags, preload } from "./utility";
 import { musicManager } from "./music";
 import { addCycles } from "./cycle";
 import { createMarquee, createMouseoverMarquee } from "./createMarquee";
-import { createCandles, removeCandles } from "./candles"
+import { createCandles, removeCandles } from "./candles";
 
 function globalScript() {
   addWrapperHtml();

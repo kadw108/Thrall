@@ -14,6 +14,7 @@ tw-story and tw-passage are necessary; Snowman won't work without them.
 */
 
 import { h } from "dom-chef";
+import { createSettings } from "./addSettings";
 
 export function addWrapperHtml() {
     if (document.getElementById("contents") === null) {
@@ -28,16 +29,18 @@ export function addWrapperHtml() {
             <div id="contents">
                 <div id="bg" className="fullscreenBg"></div>
                 <div id="passagesFake">
-                    <div className="marquee-wrapper"><div className="marquee"><p></p><p aria-hidden="true"></p></div></div>
+                    <div id="screenCover" className="fullscreenBg"></div>
+                    <div className="marquee-wrapper"><div className="marquee marquee-animation"><p></p><p aria-hidden="true"></p></div></div>
                     <div id="screenContents" className="absoluteAlign">
                         {iffSnippet}
                     </div>
-                    <div className="marquee-wrapper" style={{"position": "absolute", "bottom": "0"}}><div className="marquee"><p></p><p aria-hidden="true"></p></div></div>
-                    <div id="screenCover" className="fullscreenBg"></div>
+                    <div className="marquee-wrapper" style={{"position": "absolute", "bottom": "0"}}><div className="marquee marquee-animation"><p></p><p aria-hidden="true"></p></div></div>
                 </div>
             </div>
         ); 
 
         document.querySelector("tw-story")?.appendChild(contents);
+
+        createSettings();
     }
 }
