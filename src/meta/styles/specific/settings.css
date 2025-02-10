@@ -8,7 +8,7 @@
 
   background-color: black;
   background-image: url("assets/settings.png");
-  background-size: cover;
+  background-size: contain;
 
   border: none;
   border-radius: 3px;
@@ -18,7 +18,11 @@
   background-image: url("assets/settings2.png");
 }
 
+div[identifier="settings"] {
+  min-height: 180px;
+}
+
 div[identifier="settings"] input[type="range"] {
-  width: 260px;
+  max-width: 260px;
   margin: 0;
 }

@@ -57,13 +57,6 @@ body {
     margin: auto;
     margin-top: 10px; /* for itch.io embed being weird with margins */
 
-    width: 100vw;
-    height: 66vw;
-    min-width: 600px;
-    min-height: 400px;
-    max-width: 900px;
-    max-height: 600px;
-
     /* Prevent images from extending past div bounds
   object-fit: cover;
   overflow: hidden;
@@ -260,7 +253,7 @@ a:not([data-passage]) {
     cursor: pointer;
 }
 a[data-passage] {
-    color: #cc0000;
+    color: #ee0000;
     text-decoration: underline;
     text-underline-offset: 3px;
     text-transform: uppercase;
@@ -269,7 +262,7 @@ a[data-passage] {
 }
 a:hover {
     text-decoration: inherit;
-    color: #ff0000;
+    color: #ff4444;
 }
 .hiddenLink a {
     font-weight: inherit;

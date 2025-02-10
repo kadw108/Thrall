@@ -23,11 +23,6 @@ export const menuMusic: Array<Howl> = [
   addMaxVolume(
     new Howl({
       src: [
-        /*
-        "assets/sound/homoSpectaculum.ogg",
-        "assets/sound/homoSpectaculum.mp3",
-        */
-
        "assets/sound/piano2.ogg",
        "assets/sound/piano2.mp3",
       ],
@@ -108,48 +103,6 @@ export const mallMusic: Array<Howl> = [
   ),
 ];
 
-export const discoMusic: Array<Howl> = [
-  addMaxVolume(
-    new Howl({
-      src: [
-        "assets/sound/agnes_fingers_crossed_instrumental.ogg",
-        "assets/sound/agnes_fingers_crossed_instrumental.mp3",
-      ],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.4
-  ),
-  addMaxVolume(
-    new Howl({
-      src: ["assets/sound/whitenoise.ogg", "assets/sound/whitenoise.mp3"],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.6
-  ),
-  addMaxVolume(
-    new Howl({
-      src: ["assets/sound/whitenoise2.ogg", "assets/sound/whitenoise2.mp3"],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.5
-  ),
-];
-
 export const deathMusic: Array<Howl> = [
   addMaxVolume(
     new Howl({
@@ -192,97 +145,7 @@ export const deathMusic: Array<Howl> = [
   ),
 ];
 
-export const dangersMusic: Array<Howl> = [
-  addMaxVolume(
-    new Howl({
-      src: [
-        /*
-        "assets/sound/piano1.ogg",
-        "assets/sound/piano1.mp3",
-        */
-
-        "assets/sound/neon2.ogg",
-        "assets/sound/neon2.mp3",
-      ],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.9
-  ),
-  addMaxVolume(
-    new Howl({
-      src: ["assets/sound/whitenoise.ogg", "assets/sound/whitenoise.mp3"],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.5
-  ),
-  addMaxVolume(
-    new Howl({
-      src: ["assets/sound/whitenoise2.ogg", "assets/sound/whitenoise2.mp3"],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.5
-  ),
-];
-
 export const heavenMusic: Array<Howl> = [
-  addMaxVolume(
-    new Howl({
-      src: [
-        "assets/sound/homoSpectaculum.ogg",
-        "assets/sound/homoSpectaculum.mp3",
-      ],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.4
-  ),
-
-  addMaxVolume(
-    new Howl({
-      src: ["assets/sound/whitenoise.ogg", "assets/sound/whitenoise.mp3"],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.4
-  ),
-  addMaxVolume(
-    new Howl({
-      src: ["assets/sound/whitenoise2.ogg", "assets/sound/whitenoise2.mp3"],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.3
-  ),
-];
-
-export const surgeryMusic: Array<Howl> = [
   addMaxVolume(
     new Howl({
       src: [
@@ -296,8 +159,9 @@ export const surgeryMusic: Array<Howl> = [
       html5: true,
       preload: "metadata",
     }),
-    1
+    0.9
   ),
+
   addMaxVolume(
     new Howl({
       src: ["assets/sound/whitenoise.ogg", "assets/sound/whitenoise.mp3"],
@@ -308,49 +172,7 @@ export const surgeryMusic: Array<Howl> = [
       html5: true,
       preload: "metadata",
     }),
-    0.3
-  ),
-  addMaxVolume(
-    new Howl({
-      src: ["assets/sound/whitenoise2.ogg", "assets/sound/whitenoise2.mp3"],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.3
-  ),
-];
-
-export const postdeathMusic: Array<Howl> = [
-  addMaxVolume(
-    new Howl({
-      src: [
-        "assets/sound/seeMeSeeming.ogg",
-        "assets/sound/seeMeSeeming.mp3",
-      ],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.3
-  ),
-  addMaxVolume(
-    new Howl({
-      src: ["assets/sound/whitenoise.ogg", "assets/sound/whitenoise.mp3"],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.6
+    0.4
   ),
   addMaxVolume(
     new Howl({
@@ -379,7 +201,7 @@ export const bedroomMusic: Array<Howl> = [
       volume: 0,
       html5: true,
       preload: "metadata",
-    }), 0.6
+    }), 0.3
   ),
   addMaxVolume(
     new Howl({
@@ -404,47 +226,5 @@ export const bedroomMusic: Array<Howl> = [
       preload: "metadata",
     }),
     0.4
-  ),
-];
-
-export const alternateMusic: Array<Howl> = [
-  addMaxVolume(
-    new Howl({
-      src: [
-        "assets/sound/youHaveEnteredHyperreality.ogg",
-        "assets/sound/youHaveEnteredHyperreality.mp3",
-      ],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.3
-  ),
-  addMaxVolume(
-    new Howl({
-      src: ["assets/sound/whitenoise.ogg", "assets/sound/whitenoise.mp3"],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.5
-  ),
-  addMaxVolume(
-    new Howl({
-      src: ["assets/sound/whitenoise2.ogg", "assets/sound/whitenoise2.mp3"],
-      loop: true,
-
-      autoplay: false,
-      volume: 0,
-      html5: true,
-      preload: "metadata",
-    }),
-    0.3
   ),
 ];

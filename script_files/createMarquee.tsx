@@ -15,12 +15,12 @@ export function createMarquee(list: Array<String>, defaultText: boolean = true) 
     const tickerText = trueList.join(divider) + divider;
 
     Array.from(marqueeChildren).forEach(paragraph => {
-       paragraph.innerHTML = tickerText;
+        paragraph.innerHTML = tickerText;
     });
 
     if (defaultText) {
         // @ts-expect-error
-        window.story.state.marqueeText = list; 
+        window.story.state.marqueeText = list;
     }
 }
 
@@ -37,7 +37,7 @@ function returnToDefaultMarquee() {
 export function createMouseoverMarquee(lists: Array<Array<String>>) {
     const mouseovers = Array.from(document.querySelectorAll(".mousemarquee"));
     for (let i = 0; i < mouseovers.length; i++) {
-        mouseovers[i].addEventListener("mouseover", (event) => createMarquee(lists[i], false)); 
-        mouseovers[i].addEventListener("mouseout", (event) => returnToDefaultMarquee()); 
+        mouseovers[i].addEventListener("mouseover", (event) => createMarquee(lists[i], false));
+        mouseovers[i].addEventListener("mouseout", (event) => returnToDefaultMarquee());
     }
 }

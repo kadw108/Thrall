@@ -52,13 +52,15 @@ export function createCandles() {
         });
     });
 
-    const passagesFake = document.querySelector("#screenContents");
-    // @ts-expect-error
-    if (window.visited("end1") > 0 || window.visited("end2") > 0) {
-        passagesFake.append(candle1);
-    }
-    else {
-        passagesFake.append(candle1, candle2);
+    const passagesFake = document.querySelector("#screenContents") as HTMLElement;
+    if (passagesFake.offsetHeight > 450) {
+        // @ts-expect-error
+        if (window.visited("end1") > 0 || window.visited("end2") > 0) {
+            passagesFake.append(candle1);
+        }
+        else {
+            passagesFake.append(candle1, candle2);
+        }
     }
 }
 

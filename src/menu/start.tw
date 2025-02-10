@@ -2,11 +2,9 @@
 <div class="coolBorder" style="position: absolute; text-align: center; top: 5%; left: 10%; width: 80%; padding: 20px;">
     <h3>Thrall</h3>
 
-    <p>Game by <a href="https://kanderwund.neocities.org">KADW</a> | <small>v1.0.1</small></p>
+    <p>Game by <a href="https://kanderwund.neocities.org">KADW</a> | <small>v2.0.0</small></p>
 
     <p>[[Begin|mall0]] | [[About|about]] | [[Credits|credits]]</p>
-
-    <p class="hidden ending">[[Go to the ending choice again.|leuketomy5]]</p>
 </div>
 
 <%
@@ -14,6 +12,7 @@ $(function () {
     mainScript.globalScript();
     mainScript.createMarquee(["Thrall"]);
 
+    window.story.history = [];
     window.story.state.visitNumber = 1;
 });
 %>

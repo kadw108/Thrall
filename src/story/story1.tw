@@ -1,4 +1,4 @@
-:: alternate1 [alternate alternateMusic] {"position":"875,2475","size":"100,100"}
+:: alternate1 [alternate bedroomMusic] {"position":"875,2475","size":"100,100"}
 Picture:
 
 Chains, whips and screaming, as in the popular imagination. Visions of being driven to your knees and weeping before the lash.
@@ -12,7 +12,7 @@ $(function () {
 });
 %>
 
-:: alternate1.1  [alternate alternateMusic] {"position":"725,2550","size":"100,100"}
+:: alternate1.1  [alternate bedroomMusic] {"position":"725,2550","size":"100,100"}
 Something in your drink. Hard to think now. Everything is blurred. Your body weak, as if your will has evaporated from the flesh. 
 
 You've forgotten how to move. You've forgotten how to speak. When you <span class="mousemarquee">try</span>, the muscles do not respond. You are as an empty vessel, a living corpse, a stiff body lying prone on your [[deathbed|alternate2]].
@@ -25,7 +25,7 @@ $(function () {
 });
 %>
 
-:: alternate2  [alternate alternateMusic] {"position":"700,2750","size":"100,100"}
+:: alternate2  [alternate bedroomMusic] {"position":"700,2750","size":"100,100"}
 You never did anything like this when taking blood. You lack the inclination. So would HE? Did HE? This is what they want you to believe. Is it [[true|alternate3]]?
 
 <%
@@ -35,7 +35,7 @@ $(function () {
 });
 %>
 
-:: alternate3  [alternate alternateMusic] {"position":"875,2775","size":"100,100"}
+:: alternate3  [alternate bedroomMusic] {"position":"875,2775","size":"100,100"}
 Perhaps it is true. Perhaps you did scream, but your words were swallowed up by the oncoming storm and the soundproof walls.
 
 Perhaps there were restraints. Imagine them if you care to: thin but solid manacles chaining you down. Put them on your wrists. Your ankles too, if you prefer. Then <span class="mousemarquee">HE approached</span> and pressed a <span class="mousemarquee">bottle of blood</span> to your lips. [[Made you drink|alternate4]]. 
@@ -50,7 +50,7 @@ $(function () {
 });
 %>
 
-:: alternate4  [alternate alternateMusic] {"position":"1050,2675","size":"100,100"}
+:: alternate4  [alternate bedroomMusic] {"position":"1050,2675","size":"100,100"}
 Or perhaps you were too hazy to deny HIM the satisfaction, and there was no struggle when HE [[bent close|alternate5]].
 
 <%
@@ -60,7 +60,7 @@ $(function () {
 });
 %>
 
-:: alternate5  [alternate alternateMusic] {"position":"975,2475","size":"100,100"}
+:: alternate5  [alternate bedroomMusic] {"position":"975,2475","size":"100,100"}
 The blood entered your throat, seeping through you, and you felt yourself [[dissolve|heaven0]].
 
 <%
@@ -70,7 +70,7 @@ $(function () {
 });
 %>
 
-:: bedroom0 [bedroom ] {"position":"175,1800","size":"100,100"}
+:: bedroom0 [bedroom bedroomMusic ] {"position":"175,1800","size":"100,100"}
 Wind and darkness outside. A drizzle: needles of water over streets choked with traffic and smog.
 
 [[You went with HIM.|bedroom1]]
@@ -83,7 +83,7 @@ $(function () {
 %>
 
 
-:: bedroom1 [bedroom] {"position":"175,1950","size":"100,100"}
+:: bedroom1 [bedroom bedroomMusic] {"position":"175,1950","size":"100,100"}
 Balcony light. Warm bulb glow. Wind over the distant hum of city streets. Palm trees trembling in the parkway. You leaned on the railing and witnessed distant flashes of light playing above the skyline. Spires pierce polluted air—above them the storm. Above you [[HIS presence|bedroom2]] looming, a living corpse. A forgotten conversation was held, a death-cool hand placed on your shoulder.
 
 <%
@@ -94,7 +94,7 @@ $(function () {
 %>
 
 
-:: bedroom2 [bedroom] {"position":"400,1850","size":"100,100"}
+:: bedroom2 [bedroom bedroomMusic] {"position":"400,1850","size":"100,100"}
 Lying in the bedroom, a softness. Sweeping silence and the storm outside muffled by glass and distance.
 
 HE approached for the kiss. <span class="mousemarquee"><span class="hidden nocharm">[[Bent over you, undead.|bedroom2.5]]</span><span class="hidden charm">[[Bent over you, undead.|bedroomC]]</span></span>
@@ -115,7 +115,7 @@ $(function () {
 %>
 
 
-:: bedroom2.5 [bedroom] {"position":"400,2050","size":"100,100"}
+:: bedroom2.5 [bedroom bedroomMusic] {"position":"400,2050","size":"100,100"}
 HE approached and you allowed HIM, the way a priest bends the knee before divine decree. <span class="mousemarquee">[[HE pressed HIS lips to you|bedroom3]].</span> HE took and sanctified you, made you anew. You were as smoke, you flew up and outward; you were as a vessel, filled; HIS will sang through you like the sea.
 
 <%
@@ -127,7 +127,7 @@ $(function () {
 %>
 
 
-:: bedroom3 [bedroom] {"position":"575,1975","size":"100,100"}
+:: bedroom3 [bedroom bedroomMusic] {"position":"575,1975","size":"100,100"}
 Consider the human as container, which imperfectly holds together such disparate concepts as mind, heart, body and soul; the human as container, which can be opened and filled with whatever is proper, whatever is loving, <span class="mousemarquee">whatever is right</span>.
 
 The kiss plants a seed at your neck which blossoms in your brain. It forges the bond that links two together, forever, unto death and beyond.
@@ -143,7 +143,7 @@ $(function () {
 %>
 
 
-:: bedroom4 [bedroom] {"position":"550,2175","size":"100,100"}
+:: bedroom4 [bedroom bedroomMusic] {"position":"550,2175","size":"100,100"}
 The umber haze of heat lightning. Shadow and light melding together. Photographic film quality. A softness.
 
 This is the dream you have <span class="mousemarquee">yearned for</span>. Now it has [[descended upon you|heaven0]].
@@ -157,10 +157,10 @@ $(function () {
 %>
 
 
-:: bedroomC [bedroom] {"position":"525,1600","size":"100,100"}
+:: bedroomC [bedroom bedroomMusic] {"position":"525,1600","size":"100,100"}
 Perhaps a part of you remained, buried deep, remained aware of the charm. Inner instincts screaming to run. Get up. Climb out the window. But HE looked at you, and something of your consciousness found itself [[trapped in HIS eyes|eyes1]].
 
-:: charm1 [charm alternateMusic] {"position":"225,2550","size":"100,100"}
+:: charm1 [charm bedroomMusic] {"position":"225,2550","size":"100,100"}
 Perhaps HIS charm was [[laid upon you|charm2]] the moment you saw HIM, though you didn't yet realize it. You only recognized HIM as something holy, descended from a higher plane. 
 
 What HIS physical features were then are lost to you, drowned in that memory of first love. For vampires, deceiving the mind is natural as drawing breath, and HE was always a keen hand at clouding others' senses. HE could have looked like any man. 
@@ -174,7 +174,7 @@ $(function () {
 });
 %>
 
-:: charm2 [charm alternateMusic] {"position":"50,2550","size":"100,100"}
+:: charm2 [charm bedroomMusic] {"position":"50,2550","size":"100,100"}
 In HIS presence, the rest of the world seemed to dissolve into smoke and drift away. You were already lost, then, without knowing it. You would have let HIM do anything. <span class="mousemarquee">Lapped from HIS hand.</span>
 
 It is a curious effect of the thrall that your memories of what HE actually said and did are so vague. The <span class="mousemarquee">dominant emotion</span> overrides all. With HIS every word an idol's kiss, a lover's caress.
@@ -189,7 +189,7 @@ $(function () {
 });
 %>
 
-:: dangers1 [dangers dangersMusic] {"position":"825,575","size":"100,100"}
+:: dangers1 [dangers deathMusic] {"position":"825,575","size":"100,100"}
 <h4>[[<% print(window.story.state.visitNumber) %>. The Dangers // 19XX-21XX|dangers1.1]]</h4>
 
 <%
@@ -202,7 +202,7 @@ $(function () {
 %>
 
 
-:: dangers1.1 [dangers dangersMusic] {"position":"675,525","size":"100,100"}
+:: dangers1.1 [dangers deathMusic] {"position":"675,525","size":"100,100"}
 Never a shortage of agitated news articles, studies, television ads, speeches read off teleprompters, blogposts and internet comments. An age-old furor carried on wind and radio waves.
 
 <blockquote>It is true that vampires do not age, but they are relegated to a pitiful half-life. They must shirk the direct touch of the sun, for it burns them. They must avoid silver and holy water. They can never see themselves in reflections, photos or videos. They must subsist on the [[blood|dangers1.15]] of others, at least once per month, and can consume nothing else. They find it impossible to experience human pleasures. They deserve our sympathy.</blockquote>
@@ -215,7 +215,7 @@ $(function () {
 %>
 
 
-:: dangers1.15 [dangers dangersMusic] {"position":"695,545","size":"100,100"}
+:: dangers1.15 [dangers deathMusic] {"position":"695,545","size":"100,100"}
 <blockquote>Bud, lemme tell you, vampirism is here to kill, steal, and destroy. Trying to live with it is like trying to live with cancer and calling that the natural state of affairs. It's a disease. What do you do with diseases? You [[cure|dangers1.2]] them.
 
 Vampires are reduced to skulking around in the margins of society, sucking other people dry. I pity them. You know, every vampire first suffered under another's hand.</blockquote>
@@ -227,7 +227,7 @@ $(function () {
 });
 %>
 
-:: dangers1.2 [dangers dangersMusic] {"position":"650,350","size":"100,100"}
+:: dangers1.2 [dangers deathMusic] {"position":"650,350","size":"100,100"}
 <blockquote>Vampires? They are dangerous beasts, in possession of a supernatural charisma which they use to enthrall their hapless victims. The condition of thralldom is one wherein the will becomes subordinate to the other. It is a cruel slavery.
 
 Once overwritten, your emotional centers are no longer entirely under your own control. Thoughts and sentiment, memory and personality, all the things that comprise a human soul, go under the other's [[command|dangers2]].</blockquote>
@@ -240,7 +240,7 @@ $(function () {
 %>
 
 
-:: dangers2 [dangers dangersMusic] {"position":"500,350","size":"100,100"}
+:: dangers2 [dangers deathMusic] {"position":"500,350","size":"100,100"}
 <blockquote>They prey on the [[weak and lowly|lowly1]], and make of them marionettes.</blockquote>
 
 <%
@@ -251,7 +251,7 @@ $(function () {
 %>
 
 
-:: death1 [death] {"position":"1650,250","size":"100,100"}
+:: death1 [death deathMusic] {"position":"1650,250","size":"100,100"}
 <h4>[[<% print(window.story.state.visitNumber) %>. You chased HIM long after HE was gone // 202X-212X|death2]]</h4>
 
 <%
@@ -264,7 +264,7 @@ $(function () {
 %>
 
 
-:: death2 [death] {"position":"1650,75","size":"100,100"}
+:: death2 [death deathMusic] {"position":"1650,75","size":"100,100"}
 HE died venturing into sunlight. A choice made the [[same day|death2.5]] HE turned you.
 
 The day you became full-fledged was the day HE decided to disappear.
@@ -277,7 +277,7 @@ $(function () {
 %>
 
 
-:: death2.5 [death] {"position":"1925,25","size":"100,100"}
+:: death2.5 [death deathMusic] {"position":"1925,25","size":"100,100"}
 Search your memories for the reason and find nothing. Did HE ever tell you? Were you unworthy of being told? You do not remember existing as a confidant, or someone to exchange words with. Any conversations you did have are sundered away. Your relationship never needed words; <span class="mousemarquee">it was beyond them</span>.
 
 You remember seeing HIS body vaporize in the direct sun. HE allowed you that: the privilege of witnessing how the light seared away skin and blood until nothing was left.
@@ -295,7 +295,7 @@ $(function () {
 %>
 
 
-:: death3 [death] {"position":"1975,175","size":"100,100"}
+:: death3 [death deathMusic] {"position":"1975,175","size":"100,100"}
 In HIS absence, you live like a ghost.
 
 HIS <span class="mousemarquee">money</span> sustains you, supplemented by what you <span class="mousemarquee">achieve with your own powers</span>. To use it is to keep yourself protected, safe in this [[bubble|death3.5]] that separates you from the rest of humanity. Vampires are known as isolated and asocial individuals, night dwellers and hermits. You, too, are a hermit, and your connections to the outside world <span class="mousemarquee">shriveled with HIS passing</span>. There is no need for others when HIS memory alone is enough.
@@ -309,7 +309,7 @@ $(function () {
 %>
 
 
-:: death3.5 [death] {"position":"1800,350","size":"100,100"}
+:: death3.5 [death deathMusic] {"position":"1800,350","size":"100,100"}
 Castles are for bygone eras; high-rise suites are now in vogue. You still inhabit HIS. An condominium whose furnishings were modern when purchased and became antiquated with the passage of time, whose mirrors never reflect you. In HIS absence, the long halls became cavernous, the rooms too high and empty.
 
 If you could, you would weave together the lingering smoke of HIS being and bring it all back together into the shape of HIM. HE lives free in your <span class="mousemarquee">heart</span>. The tether connecting you will never snap, not even when HE has long dissolved into the toxic air, the <span class="hidden dangers">deadly sunlight</span><span class="hidden nodangers">[[deadly sunlight|dangers1]]</span>.
@@ -337,7 +337,7 @@ $(function () {
 %>
 
 
-:: disco2.5 [disco discoMusic disco1] {"position":"125,1075","size":"100,100"}
+:: disco2.5 [disco bedroomMusic disco1] {"position":"125,1075","size":"100,100"}
 <h4>[[<% print(window.story.state.visitNumber) %>. Encounter // 197X|disco3]]</h4>
 
 <%
@@ -350,7 +350,7 @@ $(function () {
 %>
 
 
-:: disco3 [disco discoMusic] {"position":"75,1225","size":"100,100"}
+:: disco3 [disco bedroomMusic] {"position":"75,1225","size":"100,100"}
 You were a ghost haunting the dancefloor, drifting through bars and discotheques, searching for that elusive love they said could be found in this world. The one and only dream you had, in your solitude. 
 
 What you wanted was to be subsumed by something greater, to touch the face of the divine, which is to be annihilated.
@@ -366,7 +366,7 @@ $(function () {
 %>
 
 
-:: disco4 [disco discoMusic] {"position":"225,1325","size":"100,100"}
+:: disco4 [disco bedroomMusic] {"position":"225,1325","size":"100,100"}
 You knew immediately what HE was. Always easy to tell. The way they move, with such inhuman fluidity. 
 
 There are quite many of them in these places. They stalk the night, frequenting the same bars you would frequent in the future, the same blank spaces. You sought them out.
@@ -381,7 +381,7 @@ $(function () {
 %>
 
 
-:: disco7 [disco discoMusic] {"position":"400,1375","size":"100,100"}
+:: disco7 [disco bedroomMusic] {"position":"400,1375","size":"100,100"}
 HE was the dream incarnate, pulling you towards HIM the way a satellite is drawn fatally towards a star. You knew there would be the inevitable collision. The moment when the orbit destabilizes and you crash into the center, consumed.
 
 HE waved you over. There was a conversation had, though the words have been forgotten. You <span class="mousemarquee">made the [[request|bedroom0]] of HIM</span>.
@@ -415,7 +415,7 @@ $(function () {
 });
 %>
 
-:: eyes1 [bedroom] {"position":"700,1800","size":"100,100"}
+:: eyes1 [bedroom bedroomMusic] {"position":"700,1800","size":"100,100"}
 Perhaps you couldn't look away.
 
 Perhaps coherent thought dissolved before that gaze. Words were spoken, but your mind could not register them. You only found yourself sinking back down. Consciousness scattered like a school of fish fleeing, torn apart by the riptide current. Down and [[down|bedroom2.5]].
@@ -427,7 +427,7 @@ $(function () {
 });
 %>
 
-:: postdeath10 [chasedream postdeathMusic] {"position":"1800,675","size":"100,100"}
+:: postdeath10 [chasedream heavenMusic] {"position":"1800,675","size":"100,100"}
 Without HIM there is an absence, a burning hole inside. The want to turn back time. The want to reach inside and find the emptiness and pull it out, unspool it, replace it with the missing component that would complete you.
 
 But only HE could complete you, and HE is [[gone|leuketomy2]].
@@ -440,7 +440,7 @@ $(function () {
 %>
 
 
-:: heaven0 [heaven] {"position":"1325,1875","size":"100,100"}
+:: heaven0 [heaven heavenMusic] {"position":"1325,1875","size":"100,100"}
 <h4>[[<% print(window.story.state.visitNumber) %>. Heaven // 197X-202X|heaven1]]</h4>
 
 <%
@@ -453,7 +453,7 @@ $(function () {
 %>
 
 
-:: heaven1 [heaven] {"position":"1550,2025","size":"100,100"}
+:: heaven1 [heaven heavenMusic] {"position":"1550,2025","size":"100,100"}
 Recollections of <span class="mousemarquee">[[paradise|heaven2]]</span> are disparate, abstract: hazy moonlight through curtains, gauzy strips of neon, the kiss of lifeblood flowing outward and toward. Softness, a touch, the electricity of skin-to-skin contact.
 
 <%
@@ -465,7 +465,7 @@ $(function () {
 %>
 
 
-:: heaven2 [heaven] {"position":"1725,2075","size":"100,100"}
+:: heaven2 [heaven heavenMusic] {"position":"1725,2075","size":"100,100"}
 No distance between yourself and HIM. You became two souls threaded into one, you became a river flowing into the sea. HE was the sun in your heart, the sun in your sky; your world compressed down to a single point. In the [[dream|heaven4]], there is room for nothing but love, injected into your veins. HIS blood mingles with your own.
 
 <%
@@ -476,7 +476,7 @@ $(function () {
 %>
 
 
-:: heaven3 [heaven] {"position":"1900,2225","size":"100,100"}
+:: heaven3 [heaven heavenMusic] {"position":"1900,2225","size":"100,100"}
 The dream is of a love that is all-consuming, that reaches into your skull and brushes through your neurons to show you the holy way. This is your romance: You need to open the door and let HIM in. You need to open your heart and leave room for the divine. You need to open your mind and touch the face of God.
 
 [[If any of it was real.|heaven5]]
@@ -489,7 +489,7 @@ $(function () {
 %>
 
 
-:: heaven4 [heaven] {"position":"1550,2200","size":"100,100"}
+:: heaven4 [heaven heavenMusic] {"position":"1550,2200","size":"100,100"}
 But did any of that [[truly happen|heaven4.0]]?
 
 <%
@@ -499,7 +499,7 @@ $(function () {
 });
 %>
 
-:: heaven4.0 [heaven] {"position":"1590,2200","size":"100,100"}
+:: heaven4.0 [heaven heavenMusic] {"position":"1590,2200","size":"100,100"}
 Impossible to separate memory from reality from desire. Impossible to unravel the truth. Tug at one thread and it all dissolves.
 
 The [[visions|heaven4.1]] are endless, fetched from the dual wells of memory and imagination. You can no longer distinguish which is which. Everything becomes everything else. Everything melts into everything else, as smoke into air.
@@ -511,7 +511,7 @@ $(function () {
 });
 %>
 
-:: heaven4.1 [heaven] {"position":"1600,2350","size":"100,100"}
+:: heaven4.1 [heaven heavenMusic] {"position":"1600,2350","size":"100,100"}
 A memory vivid enough to hurt, though you can no longer be sure if it happened:
 
 Sharing a sofa, plush, dark. That one you have lying downstairs, dust-coated since HIS death, the television also <span class="mousemarquee">left unattended for years</span>.
@@ -528,7 +528,7 @@ $(function () {
 });
 %>
 
-:: heaven4.2 [heaven] {"position":"1825,2375","size":"100,100"}
+:: heaven4.2 [heaven heavenMusic] {"position":"1825,2375","size":"100,100"}
 Sharing a blanket. Feel HIS heartbeat as easily as your own. Fingers tangled in your hair. With HIS touch, thought dissolves, and your consciousness [[melts|heaven3]] into the warmth of fire and crackling embers.
 
 <%
@@ -538,7 +538,7 @@ $(function () {
 });
 %>
 
-:: heaven5 [heaven] {"position":"1850,2075","size":"100,100"}
+:: heaven5 [heaven heavenMusic] {"position":"1850,2075","size":"100,100"}
 Perhaps all of it is only the accumulation of false memory over the centuries. Perhaps all of it was only a sweet dream woven for you while you slept a decades-long sleep in that bedroom, living dead, blood ripe for the taking, awaiting your becoming.
 
 Perhaps memory is an imposition. Your memories of thralldom are the attempts of a mind to map a structure onto an experience that ought to be beyond such things, a brush with the divine. Remove yourself from memories, then. No concrete images. [[Nothing could describe it|heaven6]]. The words used ought to be abstract and conceptual: a completion, an immanent perfection. A lovely scraping against your skull. Your old world coming to ruin, scraped away.
@@ -551,7 +551,7 @@ $(function () {
 %>
 
 
-:: heaven6 [heaven] {"position":"1425,1875","size":"100,100"}
+:: heaven6 [heaven heavenMusic] {"position":"1425,1875","size":"100,100"}
 In the end, words fail. In trying to remember, you forever circle the elusive center, failing to capture what cannot be described, only eternally <span class="hidden nodeath1">[[rediscovered|death1]]</span><span class="hidden death1">[[rediscovered|postdeath0]]</span>, again and again without end.
 
 <%
@@ -569,7 +569,7 @@ $(function () {
 %>
 
 
-:: implanted0 [lowly dangersMusic] {"position":"350,500","size":"100,100"}
+:: implanted0 [lowly deathMusic] {"position":"350,500","size":"100,100"}
 The old is continually obscured by the new. Your own history is a covering up, your life a palimpsest of undead layers. New impositions cannot be peeled back. The past is obscured, and you no longer remember where your memories end and HIS begin. You no longer remember where you end and HE [[begins|implanted1]].
 
 <%
@@ -580,7 +580,7 @@ $(function () {
 %>
 
 
-:: implanted1 [lowly dangersMusic] {"position":"525,575","size":"100,100"}
+:: implanted1 [lowly deathMusic] {"position":"525,575","size":"100,100"}
 The possibility remains. Perhaps this is only the narrative HE wanted you to believe. Perhaps you were another victim like all the others, abused and taken advantage of.
 
 But when you consider yourself alone, as a individual, all you can really understand is the truth of a life devoid of meaning. It is HIS presence, even now HIS memory, that gives you purpose.
@@ -595,7 +595,7 @@ $(function () {
 %>
 
 
-:: leuketomy2 [mall] {"position":"2475,1025","size":"100,100"}
+:: leuketomy2 [mall mallMusic] {"position":"2475,1025","size":"100,100"}
 <h4>[[<% print(window.story.state.visitNumber) %>. Gouge out a way right through the skull // 212X |leuketomy3]]</h4>
 
 <%
@@ -608,7 +608,7 @@ $(function () {
 %>
 
 
-:: leuketomy3 [mall] {"position":"2575,925","size":"100,100"}
+:: leuketomy3 [mall mallMusic] {"position":"2575,925","size":"100,100"}
 So here you are. In the dead shadow of the mall. Fifteen floors of concrete and glass. LEDs on the wall glitter, tracing out names, places, faces, which swallow each other and disappear.
 
 The billboard beneath flashes images which too disappear, pixelating, becoming digital debris, receding into the aether as you step away. Replaced soon enough by [[others|leuketomy3.1]].
@@ -621,7 +621,7 @@ $(function () {
 %>
 
 
-:: leuketomy3.1 [mall] {"position":"2725,925","size":"100,100"}
+:: leuketomy3.1 [mall mallMusic] {"position":"2725,925","size":"100,100"}
 These people are hardly real. You have <span class="mousemarquee">past memories</span> of flickering faces in suits, glimpsed through digital screens. Software for e-meetings. Corporate shadows that glide above the world like sharks and dive in when prompted to take what they may.
 
 You could you return to that world. The legal system has numerous pathways in place for thralls and vampires to regain their ideal place in society. And though your documents are gone, but HIS still exist, and you could easily [[use them|leuketomy3.2]].
@@ -634,7 +634,7 @@ $(function () {
 });
 %>
 
-:: leuketomy3.2 [mall] {"position":"2875,975","size":"100,100"}
+:: leuketomy3.2 [mall mallMusic] {"position":"2875,975","size":"100,100"}
 To share blood is to share secrets, to glimpse the innermost workings of another's mind. HE guarded personal details, and shaped your memories, but all HIS formal and technological learning is still within you. You have HIS degrees and HIS knowledge, which are your degrees and your knowledge, and you could step into HIS lonely skin as easily as HE stepped into yours.
 
 Goodbye to immortality, <span class="mousemarquee">exsanguinated from you</span>. You would be an [[ordinary human|leuketomy4]] again. Sit at desks and break rooms and conference tables.
@@ -649,7 +649,7 @@ $(function () {
 });
 %>
 
-:: leuketomy4 [mall] {"position":"2650,1125","size":"100,100"}
+:: leuketomy4 [mall mallMusic] {"position":"2650,1125","size":"100,100"}
 Leuketomy: a surgical removal of vampirism. It injects new cells into old veins, overwrites thrall neurons with healthy independent ones, and makes incisions into bone and blood and brain, all to conjure [[the citizen you should have been|leuketomy4.2]] into reality.
 
 <%
@@ -660,7 +660,7 @@ $(function () {
 %>
 
 
-:: leuketomy4.2 [mall] {"position":"2825,1325","size":"100,100"}
+:: leuketomy4.2 [mall mallMusic] {"position":"2825,1325","size":"100,100"}
 You will always be incomplete, they say.
 
 There is something empty in you, a hole in yourself where other people desire companionship and love. True love, not this shadow of dominion you cling to. As long as you long for the shadow of death, you will never be a real person.
@@ -677,7 +677,7 @@ $(function () {
 %>
 
 
-:: leuketomy5 [mall] {"position":"2625,1300","size":"100,100"}
+:: leuketomy5 [mall mallMusic] {"position":"2625,1300","size":"100,100"}
 Clinic six blocks down from your apartment.
 
 [[Go.|surgery0]]
@@ -692,7 +692,7 @@ $(function () {
 });
 %>
 
-:: continue0 [continue endMusic]
+:: continue0 [continue mallMusic]
 [[You choose not to go.|continue0.5]]
 
 <%
@@ -702,7 +702,7 @@ $(function () {
 });
 %>
 
-:: continue0.5 [continue endMusic]
+:: continue0.5 [continue mallMusic]
 All things wish to [[perpetuate|continue1]] themselves. You, too, must act in self-preservation.
 
 <%
@@ -712,7 +712,7 @@ $(function () {
 });
 %>
 
-:: continue1 [continue endMusic]
+:: continue1 [continue mallMusic]
 You will cling onto your love because it is all you have left. This iteration of you is defined by [[HIM|continue2]]. You could no more give HIM away than cease to breathe, to be.
 
 You will keep existing as a living ghost, superimposed above the person you used to be, rewritten by HIS hand.
@@ -727,7 +727,7 @@ $(function () {
 });
 %>
 
-:: continue2 [continue endMusic] 
+:: continue2 [continue mallMusic] 
 HE imprinted HIMSELF upon you; you imprinted upon HIM; you became mirrors of each other, two souls clasped together. To deny HIM is to deny yourself.
 
 Another version of you might have done something different, but that version of you is [[not here|continue3]].
@@ -741,7 +741,7 @@ $(function () {
 });
 %>
 
-:: continue3 [continue endMusic] 
+:: continue3 [continue mallMusic] 
 You will live without a solution. You have existed this way for a long time already. A parasite on the world, descending to take your fill before you retreat back to your eternal shelter.
 
 You have seen countless anonymous faces come and go, live and die, and cared for none of them. Perhaps HIS death sealed off the one spot in your heart that was left open to love of the living. Perhaps you never could be someone who loved the living. Only the dead find room in your heart.
@@ -755,7 +755,7 @@ $(function () {
 });
 %>
 
-:: continue4 [continue2 endMusic] 
+:: continue4 [continue2 mallMusic] 
 <h4>[[<% print(window.story.state.visitNumber) %>. // XXXX|continue5]]</h4>
 
 <%
@@ -767,7 +767,7 @@ $(function () {
 });
 %>
 
-:: continue5 [continue2 endMusic] 
+:: continue5 [continue2 mallMusic] 
 The old cities are gone now, replaced by other cities that look more or less the same.
 
 The human spirit continues to struggle forward, though continually daunted by the specters of greed and death. Billions have died and billions more will. Yet there has been no apocalypse. Everything struggles forward as it always has.
@@ -783,7 +783,7 @@ $(function () {
 });
 %>
 
-:: continue6 [continue2 endMusic] 
+:: continue6 [continue2 mallMusic] 
 You think HE is looking down at you even now, from HIS ethereal perch. But that may only be the cold smile of all these stars.
 
 Soon they, too, will be [[extinguished|end2]] by the smoke.
@@ -795,7 +795,7 @@ $(function () {
 });
 %>
 
-:: lowly1 [lowly dangersMusic] {"position":"300,300","size":"100,100"}
+:: lowly1 [lowly deathMusic] {"position":"300,300","size":"100,100"}
 <span class="mousemarquee">Was that [[you?|lowly2]]</span>
 
 <%
@@ -807,7 +807,7 @@ $(function () {
 %>
 
 
-:: lowly2 [lowly dangersMusic] {"position":"150,425","size":"100,100"}
+:: lowly2 [lowly deathMusic] {"position":"150,425","size":"100,100"}
 What do you remember? A desire for oblivion, the mechanistic endpoint of a life wrung dry by drudgery. A world that folded in on itself and became smaller and smaller every day. Exponentially smaller. Until you were a rat caught in a trap.
 
 People have ways of dealing with it. They buy one-way tickets and sell their possessions. They <span class="mousemarquee">disappear</span>. Leave friends and family and start anew.
@@ -825,7 +825,7 @@ $(function () {
 %>
 
 
-:: lowly3 [lowly dangersMusic] {"position":"200,575","size":"100,100"}
+:: lowly3 [lowly deathMusic] {"position":"200,575","size":"100,100"}
 Escape the trap. Vampirism is a monster of hearsay and horror stories, and also the feeling that rises in you upon hearing those stories, <span class="mousemarquee">a sickening</span> that might be <span class="mousemarquee">called desire</span>. That was how it began for you.
 
 Storybook romance left you cold. In all your human connections, something was missing. You needed something else—not stolid courting rituals, but a love that consumes. Devours.
@@ -843,7 +843,7 @@ $(function () {
 %>
 
 
-:: mall0 [mall] {"position":"300,50","size":"100,100"}
+:: mall0 [mall mallMusic] {"position":"300,50","size":"100,100"}
 <h4>[[<% print(window.story.state.visitNumber) %>. BetterWorld Shopping Mall // 212X|mall1]]</h4>
 
 <%
@@ -856,7 +856,7 @@ $(function () {
 %>
 
 
-:: mall1 [mall] {"position":"450,50","size":"100,100"}
+:: mall1 [mall mallMusic] {"position":"450,50","size":"100,100"}
 Constructed over the ruins of derelict apartments.
 
 Go at evening, when the sun's dying rays find it harder to touch your skin. Surveillance cameras stare. Fifteen floors of boutiques and restaurants cast a deepening shadow. Within the shadow a digital billboard glows, flashing targeted ads at the nearest passerby: smartphone becomes electric car becomes credit card. Images surface and resurface. AI-generated faces break apart and meld into each other.
@@ -871,7 +871,7 @@ $(function () {
 %>
 
 
-:: mall2 [mall] {"position":"600,50","size":"100,100"}
+:: mall2 [mall mallMusic] {"position":"600,50","size":"100,100"}
 The man on screen is a more photogenic version of you. You've tried to look good before. He is <span class="mousemarquee">trying harder</span>. He has the same hair and eyes, but HIS skin is flawless, HIS chin chiseled. 
 
 He says, [["I realized that vampirism destroyed me."|mall3]]
@@ -885,7 +885,7 @@ $(function () {
 %>
 
 
-:: mall3 [mall] {"position":"750,50","size":"100,100"}
+:: mall3 [mall mallMusic] {"position":"750,50","size":"100,100"}
 "I'd grown used to living paranoid and hungry, avoiding people and shirking the sun. I couldn't even think about how much I'd been hurt. Or how I was hurting others.
 
 "It was only when I took a step back and assessed the situation that I realized how bad things had gotten. You may not remember what it's like to be happy and healthy, but I promise you it's better than this. Vampirism eats you from the inside out. It destroys you completely. I knew I [[needed help|mall3.5]]."
@@ -898,7 +898,7 @@ $(function () {
 %>
 
 
-:: mall3.5 [mall] {"position":"925,75","size":"100,100"}
+:: mall3.5 [mall mallMusic] {"position":"925,75","size":"100,100"}
 Screen transition: sunlight and a happy family.
 
 "[[Victims of vampirism|mall4]] don't recognize how they've been damaged until it's too late. You can start your healing journey today.
@@ -914,7 +914,7 @@ $(function () {
 %>
 
 
-:: mall4 [mall] {"position":"1225,150","size":"100,100"}
+:: mall4 [mall mallMusic] {"position":"1225,150","size":"100,100"}
 Screen transition: earnest medical professional.
 
 "Please don't wait. One in five thralls don't make it to the end of the year once [[abandoned by the one who turned them|death1]].
@@ -930,7 +930,7 @@ $(function () {
 %>
 
 
-:: postdeath0 [chasedream postdeathMusic] {"position":"2500,275","size":"100,100"}
+:: postdeath0 [chasedream heavenMusic] {"position":"2500,275","size":"100,100"}
 <h4>[[<% print(window.story.state.visitNumber) %>. To feed is to chase HIS shadow // 202X-212X |postdeath3]]</h4>
 
 <%
@@ -943,7 +943,7 @@ $(function () {
 %>
 
 
-:: postdeath3 [chasedream postdeathMusic] {"position":"2650,300","size":"100,100"}
+:: postdeath3 [chasedream heavenMusic] {"position":"2650,300","size":"100,100"}
 Blood is a necessity.
 
 There are <span class="mousemarquee">people who seek out those like you</span>. Encounters arranged on apps. Signals surrepitiously swapped. Swipe left or right. The years pass, the interfaces come and go, but the desire stays the [[same|postdeath4]].
@@ -957,7 +957,7 @@ $(function () {
 %>
 
 
-:: postdeath4 [church postdeathMusic] {"position":"2850,325","size":"100,100"}
+:: postdeath4 [church heavenMusic] {"position":"2850,325","size":"100,100"}
 Church. Bright pillars and bygone memories of holiness.
 
 Closed now, but you slip through, a shadow, to where the other man awaits. Livid red and breathing. His blood sweet. Pews in silent repose frame the location where you pull him down and [[take what is yours|postdeath6]].
@@ -973,7 +973,7 @@ $(function () {
 %>
 
 
-:: postdeath6 [stall postdeathMusic] {"position":"2800,500","size":"100,100"}
+:: postdeath6 [stall heavenMusic] {"position":"2800,500","size":"100,100"}
 Stall. Framed by the cubicle door.
 
 Tapping underfoot, the sound echoing in the dense space. The opaque glass of the window, smudged, letting in that tawny light.
@@ -988,7 +988,7 @@ $(function () {
 %>
 
 
-:: postdeath6.5 [stall postdeathMusic] {"position":"2975,550","size":"100,100"}
+:: postdeath6.5 [stall heavenMusic] {"position":"2975,550","size":"100,100"}
 Drip of sinkwater, legs pressed into cold tile. Skin against skin, a shadow of what you used to have—biting, digging into the sweet lifeblood which <span class="mousemarquee">flows out and around</span>. The ghost of rapture as you chase after the lingering smoke of HIS presence.
 
 Glimpsed out of the corner of your eye, <span class="mousemarquee">phone numbers</span> clustering on the stall door, scribbled by phantom hands. Ghosts of the past. [[Seeking for completion.|postdeath7]]
@@ -997,12 +997,12 @@ Glimpsed out of the corner of your eye, <span class="mousemarquee">phone numbers
 $(function () {
     mainScript.globalScript();
     mainScript.createMarquee(["- 0 4 3 1 3 0 1 0 9 1 -", "its numerology", "some measure of God"]);
-    mainScript.createMouseoverMarquee([["Conjunction", "Injection"], ["043-130-1091"]  ]);
+    mainScript.createMouseoverMarquee([ ["Conjunction", "Injection"], ["043-130-1091"]  ]);
 });
 %>
 
 
-:: postdeath7 [car postdeathMusic] {"position":"2850,700","size":"100,100"}
+:: postdeath7 [car heavenMusic] {"position":"2850,700","size":"100,100"}
 Car. Sliver of smog glimpsed past pulled-down shades.
 
 This is your capsule, your <span class="mousemarquee">dark space </span> inside yourself. Only now can you retreat back there, when the blood reaches your lips and you sip. A leech, a parasite engorged on their blood. Wanting to madly assimilate the flesh of the other into yourself, but the other you dream of is not this specter of a man in front of you but the real HIM, who is [[gone|postdeath8]] now, vaporized, floating gaseous in your dreams.
@@ -1018,7 +1018,7 @@ $(function () {
 %>
 
 
-:: postdeath8 [chasedream postdeathMusic] {"position":"2650,650","size":"100,100"}
+:: postdeath8 [chasedream heavenMusic] {"position":"2650,650","size":"100,100"}
 Afterwards, the subjects depart. The names and faces fade away.
 
 You do not make of them what HE made of you. You haven't the will.
@@ -1033,7 +1033,7 @@ $(function () {
 %>
 
 
-:: postdeath9 [chasedream postdeathMusic] {"position":"2500,425","size":"100,100"}
+:: postdeath9 [chasedream heavenMusic] {"position":"2500,425","size":"100,100"}
 [[The years pass.|postdeath10]] Acid rain wears old monuments to dust. Pollution fills the air and birds fall out of the sky. Still you are here, waiting, watching, repeating the same motions. Undead, a living corpse, you cannot live without HIM. How could you live without HIM?
 
 <%
@@ -1044,7 +1044,7 @@ $(function () {
 %>
 
 
-:: question1 [question discoMusic] {"position":"775,1175","size":"100,100"}
+:: question1 [question bedroomMusic] {"position":"775,1175","size":"100,100"}
 Or did you? They say [[you couldn't have|question2]].
 
 <%
@@ -1055,7 +1055,7 @@ $(function () {
 %>
 
 
-:: question2 [question discoMusic]  {"position":"825,975","size":"100,100"}
+:: question2 [question bedroomMusic]  {"position":"825,975","size":"100,100"}
 This is what they say [[must have happened|question3]]:
 
 You were an innocent victim just looking for a good time. You didn't know what would happen. You didn't know that nobody would defend you there.
@@ -1070,7 +1070,7 @@ $(function () {
 });
 %>
 
-:: question3 [question discoMusic]  {"position":"975,925","size":"100,100"}
+:: question3 [question bedroomMusic]  {"position":"975,925","size":"100,100"}
 You remember nothing like that happening.
 
 But how can you be sure it did not happen? What you remember cannot be trusted. How do you know who is lying to you? How can you [[recover your history|question4]]?
@@ -1082,7 +1082,7 @@ $(function () {
 });
 %>
 
-:: question4 [question discoMusic]  {"position":"1125,1000","size":"100,100"}
+:: question4 [question bedroomMusic]  {"position":"1125,1000","size":"100,100"}
 There are no physical remainders of your past. You looked. All photos and documents have disappeared. You [[seem to remember|question5]] burning them yourself.
 
 Everything of your old self was scourged away.
@@ -1097,7 +1097,7 @@ $(function () {
 %>
 
 
-:: question5 [question discoMusic]  {"position":"1125,1150","size":"100,100"}
+:: question5 [question bedroomMusic]  {"position":"1125,1150","size":"100,100"}
 Years have gone by. There are no more physical remnants of that evening. It can only be left to imagination.
 
 Visions and possibilities flourish, then die away. Imagined sufferings: vicissitudes of torment, trauma, struggle. You only know how it ended. You can never be sure how it began.
@@ -1105,7 +1105,7 @@ Visions and possibilities flourish, then die away. Imagined sufferings: vicissit
 What can you really be certain of? [[Nothing|question6]].
 
 
-:: question6 [question discoMusic]  {"position":"800,1300","size":"100,100"}
+:: question6 [question bedroomMusic]  {"position":"800,1300","size":"100,100"}
 There is the [[pleasant dream|disco4]] you remember.
 
 But perhaps it is only the fragile verneer over an [[ugly reality|alternate1]].
@@ -1119,7 +1119,7 @@ $(function () {
 });
 %>
 
-:: surgery0 [surgery endMusic] {"position":"1825,1250","size":"100,100"}
+:: surgery0 [surgery mallMusic] {"position":"1825,1250","size":"100,100"}
 People become other people all the time. Your life is in your own control; you are the one to understand that the person you are now is [[hurting you|surgery0.1]].
 
 The solution is simple. It is the same solution your past self sought out, once upon a time. Become someone else. Once your metamorphosis into a happier person is complete, and the fundamental facts of yourself have been shorn away and replaced with something better, paradise will finally be restored.
@@ -1132,7 +1132,7 @@ $(function () {
 %>
 
 
-:: surgery0.1 [surgery endMusic] {"position":"1700,1375","size":"100,100"}
+:: surgery0.1 [surgery mallMusic] {"position":"1700,1375","size":"100,100"}
 You are alone in a small, dark place. Alone even when you are accompanied by others. In the end, there is nobody you must justify yourself to, and you have made your decision. Why should you bother trying to cross the gulf between yourself and others as you are now? Why should you bother trying to interact with others at all as you are [[now|surgery0.5]]?
 
 <%
@@ -1143,7 +1143,7 @@ $(function () {
 %>
 
 
-:: surgery0.5 [surgery endMusic] {"position":"1800,1525","size":"100,100"}
+:: surgery0.5 [surgery mallMusic] {"position":"1800,1525","size":"100,100"}
 You wish only to eradicate yourself. Then eradicated alongside will be the uncrossable gulf between yourself and other people. There will be no distance when you are one with them, your vampiric remnants seized from you and set drifting loose through the air as dust or ash. [[There will be no distance.|surgery0.6]]
 
 <%
@@ -1154,7 +1154,7 @@ $(function () {
 %>
 
 
-:: surgery0.6 [surgery endMusic] {"position":"1850,1525","size":"100,100"}
+:: surgery0.6 [surgery mallMusic] {"position":"1850,1525","size":"100,100"}
 <div class="sep">[[❉|surgery1]]</div>
 
 <%
@@ -1165,7 +1165,7 @@ $(function () {
 %>
 
 
-:: surgery1 [surgery endMusic] {"position":"1950,1400","size":"100,100"}
+:: surgery1 [surgery mallMusic] {"position":"1950,1400","size":"100,100"}
 Lying in the surgical ward, a softness. The doctors are standing over you. They place the mask on your face and tell you to [[breathe|surgery2]].
 
 <%
@@ -1176,7 +1176,7 @@ $(function () {
 %>
 
 
-:: surgery2 [surgery endMusic] {"position":"2100,1450","size":"100,100"}
+:: surgery2 [surgery mallMusic] {"position":"2100,1450","size":"100,100"}
 The [[kiss|end1]] of anesthesia is the sweetest you've had in many years.
 
 <%
