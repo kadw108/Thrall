@@ -31,7 +31,7 @@ export const menuMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     1.5
   ),
@@ -43,7 +43,7 @@ export const menuMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     0.5
   ),
@@ -55,7 +55,7 @@ export const menuMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     0.3
   ),
@@ -73,7 +73,7 @@ export const mallMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     1.1
   ),
@@ -85,7 +85,7 @@ export const mallMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     0.5
   ),
@@ -97,7 +97,7 @@ export const mallMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     0.3
   ),
@@ -115,7 +115,7 @@ export const deathMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     0.7
   ),
@@ -127,7 +127,7 @@ export const deathMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     0.5
   ),
@@ -139,7 +139,7 @@ export const deathMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     0.4
   ),
@@ -157,7 +157,7 @@ export const heavenMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     0.9
   ),
@@ -170,7 +170,7 @@ export const heavenMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     0.4
   ),
@@ -182,7 +182,7 @@ export const heavenMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     0.3
   ),
@@ -192,16 +192,16 @@ export const bedroomMusic: Array<Howl> = [
   addMaxVolume(
     new Howl({
       src: [
-        "assets/sound/shivering.ogg",
-        "assets/sound/shivering.mp3",
+        "assets/sound/youreMagic.ogg",
+        "assets/sound/youreMagic.mp3",
       ],
       loop: true,
 
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
-    }), 0.3
+      // preload: "metadata",
+    }), 0.9
   ),
   addMaxVolume(
     new Howl({
@@ -211,19 +211,19 @@ export const bedroomMusic: Array<Howl> = [
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     0.4
   ),
   addMaxVolume(
     new Howl({
-      src: ["assets/sound/rain.ogg", "assets/sound/rain.mp3"],
+      src: ["assets/sound/whitenoise2.ogg", "assets/sound/whitenoise2.mp3"],
       loop: true,
 
       autoplay: false,
       volume: 0,
       html5: true,
-      preload: "metadata",
+      // preload: "metadata",
     }),
     0.4
   ),
